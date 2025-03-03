@@ -54,18 +54,23 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+        </svg>
+      </button>
       </div>
     </header>
     <!-- maiiiiiin! -->
     <main class="main-content">
-      <section class="hero">
+      <section class="hero hidden">
         <div class="container hero-contr">
           <h1 class="hero__title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero__button">Order Service</button>
         </div>
       </section>
       <!--text-->
-      <section class="services">
+      <section class="services hidden">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="services__list">
@@ -121,7 +126,7 @@
         </div>
       </section>
       <!-- team  -->
-      <section class="team">
+      <section class="team hidden">
         <div class="container">
             <h2 class="team__title">Our Team</h2>
             <ul class="team__list">
@@ -281,7 +286,7 @@
     </section>
 
       <!-- Portfolio -->
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="portfolio__title">Our Portfolio</h2>
           <ul class="portfolio__list">
@@ -412,7 +417,7 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-bot">
           <div class="footer-logobox">
               <a href="./index.html" class="footer__logo">
@@ -473,7 +478,7 @@
       </div>
   </footer>
   <!-- model -->
-  <div class="modal_overlay">
+  <div class="modal_overlay hidden">
     <div class="modal_window">
         <button type="button" class="modal_close">
             <svg class="modal_close_icon" width="8" height="8">
