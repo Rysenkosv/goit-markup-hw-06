@@ -37,7 +37,7 @@ fieldset {
     border: none;
   }
 /* header */
-.header {
+/* .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 
@@ -132,11 +132,11 @@ fieldset {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact__link:hover{color: #404bbf;}
-.contact__link:focus{color: #404bbf}
+.contact__link:focus{color: #404bbf} */
 /* sektion main1 */
 .main-content {}
 
-.hero {
+/* .hero {
     max-width: 1440px;
     background-color: #2e2f42;
         background-image:
@@ -188,7 +188,7 @@ fieldset {
     }
 .hero__button:hover,.hero__button:focus{
     background-color: #404bbf;
-}
+} */
 /* main 2 servis */
 .services {
     padding: 120px 0;
@@ -231,7 +231,8 @@ fieldset {
     background: #f4f4fd;
     margin-bottom: 8px;
 }
-.services__subtitle {font-weight: 500;
+.services__subtitle {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
