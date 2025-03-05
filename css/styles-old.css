@@ -251,7 +251,7 @@ fieldset {
 
 /* Team main */
 
-.team {
+/* .team {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
@@ -356,9 +356,9 @@ fieldset {
     width: 16px;
     height: 16px;
     fill: var(--icon-color, #f4f4fd);
-}
+} */
 /* < !-- Portfolio --> */
-.portfolio {
+/* .portfolio {
     padding: 120px 0;
 }
 
@@ -410,10 +410,7 @@ overflow: hidden;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-/* .prtfolio_tumba:hover .overlay {
-    transform: translateY(0);
 
-} */
 .portfolio__item:hover .overlay {
     transform: translateY(0);}
 
@@ -436,7 +433,7 @@ overflow: hidden;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;} */
 /* footer */
 
   .footer {
